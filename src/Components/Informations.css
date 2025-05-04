@@ -1,0 +1,63 @@
+.bilgiler-background {
+    background-color: #FAF7F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bilgiler{
+    text-align: left;
+    max-width: 36rem;
+    
+}
+.bilgiler p{
+    font-family: "Barlow";
+}
+.bilgiler-yazi{
+    margin: 3rem auto;
+}
+.bilgiler-pizza-baslik{
+    margin: 3rem auto;
+}
+.bilgiler-pizza-baslik h4{
+    font-family: "Roboto Condensed";
+}
+.bilgiler-pizza-degerlendirme{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem auto;
+}
+.bilgiler-pizza-degerlendirme-fiyat{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-right: 12rem;
+}
+
+@media(max-width:768px) {
+.bilgiler-background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.bilgiler-background img{
+    max-width: 10rem;
+}
+.bilgiler-yazi{
+    padding: 1rem;
+    margin: 0;
+}
+.bilgiler-pizza-aciklama{
+    padding: 1rem;
+}
+.bilgiler-pizza-degerlendirme{
+    padding: 1rem;
+}
+.yarim-pizza{
+    display: flex;
+    justify-content: center;
+}
+}
+

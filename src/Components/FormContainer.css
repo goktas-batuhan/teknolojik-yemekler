@@ -1,0 +1,124 @@
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.order-all {
+    max-width: 36rem;
+}
+
+.boyut-inner {
+    display: inline-block;
+    margin-right: 1rem;
+    padding-left: 0;
+}
+
+.boyut-inner input[type="radio"] {
+    display: none;
+}
+
+.boyut-inner label {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FAF7F2;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #444;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: 2px solid transparent;
+}
+
+.boyut-inner input[type="radio"]:checked+label {
+
+    background-color: #FDC913;
+
+}
+
+.hamur-boyut {
+    display: flex;
+
+}
+
+#hamur {
+    background-color: #FAF7F2;
+    /* istediğin rengi buraya yaz */
+    border-radius: 0.5rem;
+    margin: 0.5rem
+}
+.ek-malzeme-checkbox{
+    margin-bottom: 3rem !important;
+}
+.ek-malzeme-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+
+
+.inner-checkbox {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 8px;
+    
+}
+.inner-checkbox:checked{
+    background-color: #FDC913;
+    border: 0;
+
+}
+.ekmalzeme-inner-formgroup{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.siparis-notu{
+    background-color: #FAF7F2;
+    border-radius: 0.5rem;
+}
+@media(max-width:768px){
+    .hamur-boyut{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .boyut{
+        width: 350px;
+    }
+    .pizza-hamur{
+        width: 350px;
+    }
+    .ek-malzeme-checkbox{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ek-malzeme-checkbox legend{
+        width: 350px;
+    }
+    .ek-malzeme-aciklama{
+        width: 350px;
+    }
+    .ek-malzeme-div{
+        width: 350px;
+    }
+    .siparis{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .siparis-notu{
+        width: 300px;
+    }
+
+}

@@ -1,0 +1,76 @@
+
+.hesap-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.siparis-hesabi{
+    background-color: #FAF7F2;
+    width: 25rem;
+    border-radius: 5px;
+}
+.siparis-toplam{
+    margin: 1.5rem;
+}
+.siparis-baslik{
+    margin-bottom: 1.5rem;
+}
+.yazi1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.yazi2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.yazi2 p{
+    color: #CE2829;
+}
+
+
+.hesap-butonu{
+    width: 25rem;
+}
+
+.adet-buttons{
+    display: flex;
+    max-width: 10rem;
+}
+.hesap-button{
+    background-color:#FAF7F2;
+    border: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 3px
+}
+.buton-buton{
+    width: 25rem;
+    
+}
+.adet-gosterge{
+    width: 36px;
+    height: 36px;
+    background-color: #FAF7F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:768px) {
+    .hesap-container{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .siparis-hesabi{
+        width: 350px;
+    }
+    .buton-buton{
+        width: 350px;
+    }
+    
+}

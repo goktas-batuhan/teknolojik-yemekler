@@ -1,0 +1,71 @@
+.all-succes{
+    background-color: #CE2829;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "barlow";
+    width: 100%;
+    min-height: 100vh;
+}
+.succes-main-div{
+    display: flex;
+    flex-direction: column;
+    max-width: 36rem;
+    margin: 3rem;
+}
+
+.succes-sekilli-yazi {
+    font-family: "satisfy";
+    text-align: center;
+    color: #FDC913;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+.succes-siparis-alindi{
+    color: white;
+    text-align: center;
+    font-family: "Roboto Condensed";
+    border-bottom: 2px solid white;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: 200;
+}
+.succes-pizza-adi{
+text-align: left;
+margin-top: 1rem;
+margin-bottom: 3rem;
+margin-left: 1rem;
+font-size: 1.2rem;
+font-family: "Roboto Condensed";
+}
+.pizza-infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-left: 3rem;
+    max-width: 10rem;
+    margin-bottom: 3rem;
+}
+.succes-hesap{
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.succes-hesap-inner{
+    margin: auto;
+    padding: 2rem;
+}
+.hesap-baslik{
+    margin-bottom:1rem ;
+}
+.succes-sipasi-inner{
+    display: flex;
+    justify-content: space-between;
+    max-width: 10rem;
+}
+@media(max-width:768px) {
+    
+}
